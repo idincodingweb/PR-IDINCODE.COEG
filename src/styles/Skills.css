@@ -1,0 +1,46 @@
+.skills-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.skills-title {
+  color: #36ffc3b5;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.skill-card {
+  background-color: #ffffff00;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(0,224,116);
+  margin-bottom: 20px;
+}
+
+.skill-card img {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+
+.skill-name {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.skill-level {
+  font-size: 14px;
+  color: #666;
+}
+
+.skill-card {
+  transition: transform 0.3s, box-shadow rgb(0,224,116) 0.3s;
+  margin-bottom: 20px; /* Tambahkan margin bawah pada card */
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgb(0,224,116);
+}

@@ -1,0 +1,31 @@
+.testimonials-section {
+  padding: 50px 0;
+}
+
+.testimonials-title {
+  color: #36ffc3b5;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+
+.testimonial-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-bottom: 20px; /* Tambahkan margin bawah pada card */
+  box-shadow: 0 0 10px rgb(0,224,116);
+  align-items: center;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgb(0,224,116);
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  max-width: 100px;
+  margin-bottom: 20px;
+  align-items: center;
+}

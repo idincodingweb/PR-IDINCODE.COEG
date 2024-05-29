@@ -1,0 +1,34 @@
+.hero-section {
+  padding: 50px 0;
+}
+
+.hero-headline {
+  color: #36ffc3b5; /* Ubah warna teks sesuai kebutuhan */
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.hero-subheadline {
+  color: white; /* Ubah warna teks sesuai kebutuhan */
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.hero-cuy {
+  background-color: #0a555a; /* Ubah warna latar belakang tombol sesuai kebutuhan */
+  color: #fff; /* Ubah warna teks tombol sesuai kebutuhan */
+  border: none;
+  margin: 10px;
+  border-radius: 20px; /* Membuat tombol berbentuk bulat */
+  padding: 10px 20px;
+}
+
+.hero-cuy:hover {
+  background-color: #0a555a; /* Warna sedikit lebih gelap untuk hover */
+  color: black; /* Ubah warna teks tombol sesuai kebutuhan */
+}
+
+.hero-image {
+  max-width: 200px; /* Ubah ukuran gambar sesuai kebutuhan */
+  height: auto;
+}

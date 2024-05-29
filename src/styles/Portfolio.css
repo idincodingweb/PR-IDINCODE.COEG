@@ -1,0 +1,25 @@
+.portfolio-section {
+  padding: 50px 0
+
+}
+
+.portfolio-title {
+  color: #36ffc3b5;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.portfolio-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(0,224,116);
+  margin-bottom: 20px;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgb(0,224,116);
+}
